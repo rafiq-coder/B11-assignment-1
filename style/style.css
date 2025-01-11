@@ -55,3 +55,17 @@
 #card-3{
     background-color: #F7EBCF;
 }
+
+.box{
+    width: 240px;
+    background-color: bisque;
+    border: 1px solid blue;
+}
+.box-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.donate{
+    margin: 0 auto;
+}
