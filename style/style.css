@@ -26,7 +26,8 @@
     background-color: #C6E4D6;
     margin-top: 10px;
 }
-#banner-button{
+
+#banner-button {
     width: 270px;
     height: 56px;
     background-color: #006A50;
@@ -99,7 +100,7 @@
     background-color: #F7EBCF;
 }
 
-#card-btn-1{
+#card-btn-1 {
     background-color: #5490F5;
     border: none;
     width: 122px;
@@ -108,7 +109,8 @@
     margin-top: 5px;
     color: #FFFFFF;
 }
-#card-btn-2{
+
+#card-btn-2 {
     background-color: #09A15C;
     border: none;
     width: 122px;
@@ -117,7 +119,8 @@
     margin-top: 20px;
     color: #FFFFFF;
 }
-#card-btn-3{
+
+#card-btn-3 {
     background-color: #FFC239;
     border: none;
     width: 122px;
@@ -161,14 +164,54 @@
 
 .box {
     width: 240px;
-    background-color: bisque;
-    border: 1px solid blue;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: 1px solid #0E0E0E26;
+    border-radius: 16px;
+
+}
+
+#box- {
+    background-color: #C6E4D6;
+}
+
+.box-h {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .box-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
 
+.donate-input {
+    width: 1023px;
+    height: 64px;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+.input-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+
+}
+
+.donate-btn {
+    width: 151px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
 }
 
 #recent-h {
@@ -182,7 +225,7 @@
     opacity: 70%;
 }
 
-.recent-btn{
+.recent-btn {
     background-color: #006A50;
     color: #FFFFFF;
     border: none;
@@ -197,24 +240,25 @@
 }
 
 .satelite-div {
-    
+
     padding: 40px;
-    
+
 }
 
 .satelite-listing {
     padding: 40px;
-    
+
 }
 
 .hero {
     display: flex;
     margin: 0 auto;
-    
-    
+
+
 
 }
-.time{
+
+.time {
     display: flex;
     gap: 12px;
 }
@@ -227,4 +271,56 @@
 
 .donate {
     margin: 0 auto;
+}
+
+.newsletter {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 1280px;
+    height: 395px;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.footer-input-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-input {
+    width: 600px;
+    height: 55px;
+    border: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer-btn {
+    width: 150px;
+    height: 55px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.news-h {
+    font-size: 40px;
+}
+
+.news-p {
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    width: 622px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.footer-text{
+    font-size: 16px;
+    color: #0E0E0EB3;
+    opacity: 70%;
 }
