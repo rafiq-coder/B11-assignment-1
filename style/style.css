@@ -7,6 +7,7 @@
     max-width: 1280px;
     margin: 0 auto;
     font-family: "Fira Sans", serif;
+    background-color: rgb(234, 244, 253);
 }
 .nav{
     display: flex;
@@ -87,6 +88,31 @@
     margin-top: 25px;
     margin-bottom: 12px;
 }
+.card-paragraph{
+    color: #0E0E0EB3;
+    font-size: 16px;
+
+}
+
+#yunus{
+    padding: 48px 24px 48px 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+#yunus-p{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+#yunus-h{
+    font-size: 20px;
+    opacity: 80%;
+}
+#yunus-c{
+    opacity: 60%;
+}
+
 .box{
     width: 240px;
     background-color: bisque;
@@ -97,6 +123,31 @@
     justify-content: space-around;
     
 }
+#recent-h{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+#recent-p{
+    font-size: 16px;
+    opacity: 70%;
+}
+
+#satelite{
+    border-radius: 24px;
+}
+#satelite-div{
+    gap: 32px;
+    padding: 40px;
+}
+#satelite-listing{
+    padding: 40px;
+}
+.hero{
+    display: flex;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    }
 .donate{
     margin: 0 auto;
 }
