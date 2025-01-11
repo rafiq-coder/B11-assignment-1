@@ -35,6 +35,9 @@
     border-radius: 8px;
     border: none;
 }
+#banner-button:hover{
+background-color: #09A15C;
+}
 
 #banner-paragraph {
     font-size: medium;
@@ -109,6 +112,9 @@
     margin-top: 5px;
     color: #FFFFFF;
 }
+#card-btn-1:hover{
+    background-color: blue;
+}
 
 #card-btn-2 {
     background-color: #09A15C;
@@ -119,6 +125,9 @@
     margin-top: 20px;
     color: #FFFFFF;
 }
+#card-btn-2:hover{
+    background-color: #5490F5;
+}
 
 #card-btn-3 {
     background-color: #FFC239;
@@ -127,6 +136,10 @@
     height: 41px;
     border-radius: 8px;
     color: #FFFFFF;
+    margin-top: 5px;
+}
+#card-btn-3:hover{
+background-color: chocolate;
 }
 
 .card-heading {
@@ -145,12 +158,16 @@
     background-color: #FFFFFF;
     border-radius: 16px;
     margin-top: 32px;
+
+
 }
 
 #yunus-p {
     font-size: 16px;
-    color: #0E0E0E;
-    opacity: 80%;
+    color: #242323;
+    margin-top: 10px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
 }
 
 #yunus-h {
@@ -179,6 +196,10 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 5px;
+    
+}
+.box:hover{
+    background-color: #5490F5;
 }
 
 .box-content {
@@ -213,6 +234,9 @@
     border-radius: 8px;
     color: #FFFFFF;
 }
+.donate-btn:hover{
+    background-color: #09A15C;
+}
 
 #recent-h {
     font-size: 40px;
@@ -233,6 +257,9 @@
     height: 48px;
     border-radius: 8px;
     margin-top: 20px;
+}
+.recent-btn:hover{
+    background-color: #09A15C;
 }
 
 .satelite {
@@ -291,9 +318,10 @@
 
 .footer-input {
     width: 600px;
-    height: 55px;
+    height: 15px;
     border: none;
-    text-align: center;
+    text-align: left;
+    padding: 20px;
     margin-bottom: 25px;
 }
 
@@ -304,6 +332,9 @@
     color: #FFFFFF;
     border: none;
     border-radius: 0px 8px 8px 0px;
+}
+.footer-btn:hover{
+    background-color: #09A15C;
 }
 
 .news-h {
@@ -319,7 +350,8 @@
     margin: 0 auto;
     margin-bottom: 24px;
 }
-.footer-text{
+
+.footer-text {
     font-size: 16px;
     color: #0E0E0EB3;
     opacity: 70%;
